@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+body {
+  font-family: "Lobster", cursive, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: #dbc5f5;
+  color: #031b13;
+}
+
+a {
+  color: #031b13;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.avatar {
+  width: 200px;
+  border-radius: 100px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.info-text p {
+  letter-spacing: 1px;
+  font-size: 21px;
+  color: #0b271f;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.card-sss {
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+.card {
+  /* border: solid black;*/
+  border-radius: 15px;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+}
+
+.bg-hobby {
+  background: #a375ec71;
+}
+.bg-job {
+  background: #9269d375;
+}
+.bg-it {
+  background: #7e5bb677;
+}
+.btn {
+  background: #031b13;
+  padding: 15px 10px;
+  color: antiquewhite;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+
+.list {
+  padding: 0px 30px;
+}
+.list li {
+  margin-bottom: 10px;
+}
+.list-link {
+  margin-bottom: 10px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.table {
+  width: 100%;
+}
+.table th:nth-child(1) {
+  color: rgb(47, 6, 94);
+}
+.table th:nth-child(2) {
+  color: rgb(47, 6, 94);
+}
+.table th:nth-child(3) {
+  color: rgb(47, 6, 94);
+}
+.table td {
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.form h2 {
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  font-size: 16px;
+  color: #031b13;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #031b13;
+  color: #031b13;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+.form-row .form-group {
+  margin-right: 20px;
+  width: 50%;
+}
+.form-row {
+  margin-bottom: 10px;
+  display: flex;
+}
+.form-row .form-group:last-child {
+  margin-right: 0;
+}
+.face {
+  display: flex;
+}
+
+@media (max-width: 650px) {
+.face{display: block;
+text-align: center;}
+.info{display: block;
+  text-align: center;}
+}
